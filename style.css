@@ -1,0 +1,27 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.learn {
+    display: grid;
+    grid-template-areas: 
+    "learn1 learn2"
+    "learn3 learn3";
+    grid-column: 2fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    width: 450px;
+
+}
+.learn_1 {
+    border: solid 1px black;
+    grid-area: learn1;
+}
+.learn_2 {
+    border: solid 1px red;
+    grid-area: learn2;
+}
+.learn_3 {
+    border: solid 1px blue;
+    grid-area: learn3;
+}
