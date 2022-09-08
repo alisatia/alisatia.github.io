@@ -37,3 +37,23 @@ html, body{
     justify-content: center;
     align-items: center;
 }
+.gambar li{
+    border: solid 1px pink;
+    background-color: yellow;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar{
+    width: 80%;
+    margin: 20px auto;
+    border: solid white 10px;
+    border-radius: 15px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+}
