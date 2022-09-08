@@ -1,4 +1,4 @@
-html, body{
+*{
     padding: 0;
     margin: 0;
     background-color: grey;
@@ -55,5 +55,4 @@ html, body{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-
 }
