@@ -56,3 +56,42 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
+.area{
+    color: red;
+    font-weight: bold;
+    display: grid;
+    grid-template: 100px 200px 100px / 1fr 2fr 3fr;
+}
+.area div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.A1{
+    background-color: blue;
+}
+.A2{
+    background-color: yellow;
+}
+.A3{
+    background-color: crimson;
+}
+.A4{
+    background-color: purple;
+}
+.A5{
+    background-color: white;
+}
+.A6{
+    background-color: orange;
+}
+.A7{
+    background-color: salmon;
+}
+.A8{
+    background-color: skyblue;
+}
+.A9{
+    background-color: seagreen;
+}
